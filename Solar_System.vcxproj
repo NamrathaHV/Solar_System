@@ -162,6 +162,9 @@
     <Image Include="Bitmaps\uranusmap.bmp" />
     <Image Include="Bitmaps\venusmap.bmp" />
   </ItemGroup>
+  <ItemGroup>
+    <Media Include="audio\Mars-sound.wav" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

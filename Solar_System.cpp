@@ -134,7 +134,7 @@ int main(int argc, char** argv)
 	->Advanced -> Character Set: Use Multi-Byte Character Set
 	->Linker -> Input -> Additional Dependencies: Winmm.lib
 	*/
-	//bool played = PlaySound("audio/Mars-sound.wav", NULL, SND_LOOP | SND_ASYNC);
+	bool played = PlaySound("audio/Mars-sound.wav", NULL, SND_LOOP | SND_ASYNC);
 
 	glutMainLoop();
 	return 0;
